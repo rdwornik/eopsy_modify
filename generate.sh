@@ -2,6 +2,8 @@
 set -e
 set -u
 
+#Skrypt do generowania folderów
+
 for testdir in "$@"; do
     echo "create directory '$testdir'"
     mkdir -p $testdir
